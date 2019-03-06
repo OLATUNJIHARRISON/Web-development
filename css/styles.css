@@ -1,0 +1,222 @@
+body{
+	background-image: url(../images/hello.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	/*width:100%;*/
+}
+.nav-bar{
+	background: black;
+	height: 80px;
+	/*display: flex;*/
+}
+	
+.nav-item {
+	color: white;
+	background: red;
+	margin-top: 5px;
+	text-align: center;
+	margin-left: -40px;
+	font-family: arial;
+	border-radius: 15px;
+
+}
+.nav-group{
+	list-style-type: none;
+	background: black;
+	margin-top: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+
+
+}
+.google-logo{
+	width: 18%;
+	height: 70px;
+}
+.go{
+	display: flex;
+	flex-direction: column;
+	background: white;
+	height:70vh; 
+	margin-top: 135px;
+}
+.welcome{
+	margin-top: 20px;
+	color: white;
+	display: flex;
+	text-align: center;
+	font-size: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 30vh;
+}
+form{
+	background: black;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.fill{
+	background: yellow;
+	width: 100%;
+	/*margin-top: 50px;*/
+}
+input {
+	height: 10px;
+	margin: 8px;
+	padding:10px;
+	width: 50%;
+	border-radius: 15px;
+	padding-right: 0px;
+	font-size: 20px;
+	}
+.submit-button {
+	width: 40%;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 8px;
+	background: black;
+	color: white;
+	size: 20px;
+}
+.side-1{
+	width: 100%;
+	height: 30vh;
+	background-image: url("../images/1.png");
+}
+.moving-stuff-2{
+	background: black;
+	position: absolute;
+}
+.contact{
+	background: black;
+	color: white;
+	font-family: arial;
+	margin-top: 10px;
+}
+.email{
+	background: black;
+	color: white;
+	font-family: arial;
+	margin-bottom: 10px;
+}
+.harisoft{
+	background: black;
+	color: white;
+	font-family: arial;
+	margin-bottom: 10px;
+}
+.info{
+	font-family: arial;
+	font-size: 25px;
+}
+.footer-1 {
+	margin-top: 5px;
+	background: black;
+	color: white;
+}
+.footer-2 {
+	background: black;
+	color: white;
+}
+.footer-3 {
+	background: black;
+	color: white;
+}
+@media screen and (min-width: 760px){
+	.nav-bar{
+		display: flex;
+	}
+	.nav-group{
+		display: flex;
+		margin-left:auto;
+	}
+	.nav-item{
+		margin-left: 15px;
+		background: black;
+	}
+	.nav-item:hover {
+		text-align: center;
+		background: gold;
+		padding: 15px;
+		font-size: 30px;
+		height: 15px;
+	}
+	.go{
+		margin-top: 5px;
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		flex-direction:row;
+	}
+	.welcome{
+		margin-right: -70px;
+		text-align: center;
+	}
+	.side-1{
+		width: 70%;
+		height: 50vh;
+		background:url("../images/1.png"); 
+	}
+	.fill{
+		width: 30%;
+		background: black;
+		height: 50vh;
+
+	}
+	input{
+		width:90%;
+	}
+	.down-content {
+		display: flex;
+		background: black; 
+		height: 33vh;
+		margin-top: 10px;
+		padding-bottom: 60px;
+	}
+	.contact {
+		margin-top: 20px;
+		color: white;
+		width: 33%;
+		margin-top: 20px;
+	}
+	.email {
+		color: white;
+		width: 33%;
+		margin-top: 20px;
+	}
+	.harisoft {
+		color: white;
+		width: 33%;
+		margin-top: 20px;
+	}
+	.info{
+		font-family: arial;
+		margin-top: 50px;
+	}
+	.footer-1 {
+		margin-top: 5px;
+		background: black;
+		color: white;
+	}
+	.footer-2 {
+		background: black;
+		color: white;
+	}
+	.footer-3 {
+		background: black;
+		color: white;
+	}
+	.submit-button {
+	width: 80%;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 8px;
+	background: black;
+	color: white;
+	size: 20px
+}
